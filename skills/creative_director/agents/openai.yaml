@@ -1,0 +1,7 @@
+interface:
+  display_name: "Creative Director"
+  short_description: "Strategic innovation lead for shaping differentiated startup concepts, USP, positioning, and solution direction from research and founder intent."
+  brand_color: "#7C3AED"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

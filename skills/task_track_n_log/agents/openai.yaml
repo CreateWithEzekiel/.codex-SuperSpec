@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Task Track n Log"
+  short_description: "Durable multi-step repo task tracking"
+  default_prompt: "Use Task Track n Log to break down this repo task, maintain durable progress in the active `xx_sprintname_task_track_n_log.md`, and preserve accepted decisions for recovery after compaction."
+
+policy:
+  allow_implicit_invocation: true

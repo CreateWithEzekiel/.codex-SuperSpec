@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Director"
+  short_description: "Research and intelligence lead for market, customer, competitor, trend, and ecosystem analysis that informs strategic decisions."
+  brand_color: "#2563EB"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

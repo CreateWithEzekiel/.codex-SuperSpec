@@ -1,0 +1,7 @@
+interface:
+  display_name: "UI/UX Architect"
+  short_description: "Frontend and experience lead for user journeys, interaction models, interface strategy, and frontend debugging."
+  brand_color: "#DB2777"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Backend API Security Review"
+  short_description: "Backend API ownership and exposure review"
+  default_prompt: "Use $backend_api_security_review to review this backend API design or code for ownership, exposure, and authorization flaws."
+
+policy:
+  allow_implicit_invocation: true

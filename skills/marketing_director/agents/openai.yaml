@@ -1,0 +1,7 @@
+interface:
+  display_name: "Marketing Director"
+  short_description: "Growth and content lead for turning strategy into channel-native campaigns, articles, visuals, and recurring publishing systems."
+  brand_color: "#EA580C"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

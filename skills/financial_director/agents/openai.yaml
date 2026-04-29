@@ -1,0 +1,7 @@
+interface:
+  display_name: "Financial Director"
+  short_description: "Capital strategy lead for grants, investor outreach, fundraising materials, and financial framing for startup growth."
+  brand_color: "#059669"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true
