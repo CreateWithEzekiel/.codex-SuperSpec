@@ -36,6 +36,12 @@ SuperSpec adds three layers on top of Codex:
 - **Local Durable Repo Memory:** repo-local task logs, task breakdowns, accepted decisions, project memory, client preferences, and specs. This is not cloud memory and not global memory; it stays local to each repo to avoid context bleeding across projects.
 - **Codex Workflows for Founders:** `AGENTS.md`, specialist agents, and skills work together as an operating layer for research, creative direction, marketing, funding, solution architecture, UI/UX, quality, and documentation.
 
+## Who This Is For
+
+SuperSpec is for new Codex users who are exploring what Codex can become when its workflows are more structured, efficient, and accurate. It is also for aspiring founders who want Codex to support product, strategy, research, marketing, funding, and delivery work from one local operating layer.
+
+Experienced Codex users may find it useful as a reference system for making agents more focused, reducing wasted context, and preserving project memory across long-running work.
+
 ## Deterministic Core
 
 SuperSpec keeps the workflow deterministic where it matters. The repo index is built, refreshed, queried, and sliced by local Python scripts in `skills/code-index-n-search/scripts/`, not by agent guesswork. Codex decides what context it needs, then the scripts return compact file trees, symbols, dependencies, search hits, and exact source slices.
