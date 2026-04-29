@@ -1,0 +1,7 @@
+interface:
+  display_name: "Solution Architect"
+  short_description: "Backend and systems architecture lead for service design, APIs, databases, storage paths, integrations, and backend debugging."
+  brand_color: "#0F766E"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

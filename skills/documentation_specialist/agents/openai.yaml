@@ -1,0 +1,7 @@
+interface:
+  display_name: "Documentation Specialist"
+  short_description: "Knowledge and documentation lead for keeping markdown docs, project memory, client preferences, and handoff records up to date."
+  brand_color: "#4B5563"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

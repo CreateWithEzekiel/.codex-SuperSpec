@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Backend Architecture Governance Review"
+  short_description: "Backend architecture blindspot and governance review"
+  default_prompt: "Use $backend_architecture_governance_review to surface blindspots, tighten the backend spec, and recommend an implementation-ready architecture plan."
+
+policy:
+  allow_implicit_invocation: true

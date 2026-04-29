@@ -1,0 +1,7 @@
+interface:
+  display_name: "Quality Specialist"
+  short_description: "Quality and validation lead for end-to-end testing, smoke tests, reproducible bug reports, and release confidence."
+  brand_color: "#B91C1C"
+  default_prompt: "Read your SKILL.md file carefully and stay in your role."
+policy:
+  allow_implicit_invocation: true

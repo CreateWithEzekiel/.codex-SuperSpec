@@ -1,6 +1,6 @@
 # SuperSpec for Codex
 
-Stop burning context. Start running Codex like a startup operating layer.
+**Stop burning context. Start running Codex like a startup operating layer.**
 
 SuperSpec for Codex is a founder/operator configuration for Codex. It is built for people using Codex across product, engineering, research, marketing, funding, quality, and documentation work, not just solo coding.
 
@@ -31,6 +31,12 @@ SuperSpec adds three layers on top of Codex:
 - **Token Efficiency Engine:** a local repo index with SQLite, symbols, dependencies, prefix search, trigrams, sparse n-grams, and narrow source slices. The goal is to reduce input-token burn by reading only the lines that matter, with a target of less than 30% input-token footprint for source exploration after initial indexing.
 - **Local Durable Repo Memory:** repo-local task logs, task breakdowns, accepted decisions, project memory, client preferences, and specs. This is not cloud memory and not global memory; it stays local to each repo to avoid context bleeding across projects.
 - **Codex Workflows for Founders:** `AGENTS.md`, specialist agents, and skills work together as an operating layer for research, creative direction, marketing, funding, solution architecture, UI/UX, quality, and documentation.
+
+## Deterministic Core
+
+SuperSpec keeps the workflow deterministic where it matters. The repo index is built, refreshed, queried, and sliced by local Python scripts in `skills/code-index-n-search/scripts/`, not by agent guesswork. Codex decides what context it needs, then the scripts return compact file trees, symbols, dependencies, search hits, and exact source slices.
+
+This avoids adding MCP complexity just to make the system work. Everything is designed to run directly in stock Codex from files in your Codex home folder, with local repo artifacts stored under `.repo_executive_context/`.
 
 ## Why It Exists
 

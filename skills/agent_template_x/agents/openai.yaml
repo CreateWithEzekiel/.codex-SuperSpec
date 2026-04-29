@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Template"
+  short_description: "Template for creating specialised Agents"
+  brand_color: "#06B6D4"
+  default_prompt: "Read your SKILL.md file carefully"
+policy:
+  allow_implicit_invocation: true

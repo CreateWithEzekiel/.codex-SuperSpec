@@ -1,0 +1,8 @@
+interface:
+  display_name: "AST Summary Builder"
+  short_description: "Scans repo structure and runs a deterministic script to create mirrored AST-style summaries"
+  brand_color: "#0F766E"
+  default_prompt: "Inspect the repo structure, select important files, and directly run the AST summary builder script. Avoid broadly loading source code into context first."
+
+policy:
+  allow_implicit_invocation: true
