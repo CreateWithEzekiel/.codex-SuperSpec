@@ -48,6 +48,14 @@ SuperSpec is not a separate multi-agent framework. It defines multiple Codex age
 
 The goal is not to replace Codex with another runtime, service, or agent platform. The goal is to make stock Codex more structured: clearer roles, better context loading, deterministic coding support, durable repo memory, and less wasted context during long tasks.
 
+## How This Compares
+
+SuperSpec is intentionally lighter than most agent frameworks. It does not add a new runtime, dashboard, server, or orchestration layer. It works as a Codex home configuration made of `AGENTS.md`, specialist agent definitions, skills, local scripts, and repo-local memory.
+
+Many agent frameworks are useful when you need external services, custom execution graphs, hosted tools, or application-level agent orchestration. SuperSpec is for a simpler starting point: make stock Codex more focused, more token-efficient, and more durable during real project work.
+
+It can also coexist with heavier systems. Treat it as a practical operating layer for Codex, not a replacement for every agent framework.
+
 ## Deterministic Process for Coding
 
 SuperSpec keeps the workflow deterministic where it matters. The repo index is built, refreshed, queried, and sliced by local Python scripts in `skills/code-index-n-search/scripts/`, not by agent guesswork. Codex decides what context it needs, then the scripts return compact file trees, symbols, dependencies, search hits, and exact source slices.
