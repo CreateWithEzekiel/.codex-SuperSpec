@@ -42,7 +42,13 @@ SuperSpec is for new Codex users who are exploring what Codex can become when it
 
 Experienced Codex users may find it useful as a reference system for making agents more focused, reducing wasted context, and preserving project memory across long-running work.
 
-## Deterministic Core
+## What This Is Not
+
+SuperSpec is not a separate multi-agent framework. It defines multiple Codex agents, roles, skills, and orchestration rules, and it can support parallel work inside Codex when the user explicitly asks for spawned agents.
+
+The goal is not to replace Codex with another runtime, service, or agent platform. The goal is to make stock Codex more structured: clearer roles, better context loading, deterministic coding support, durable repo memory, and less wasted context during long tasks.
+
+## Deterministic Process for Coding
 
 SuperSpec keeps the workflow deterministic where it matters. The repo index is built, refreshed, queried, and sliced by local Python scripts in `skills/code-index-n-search/scripts/`, not by agent guesswork. Codex decides what context it needs, then the scripts return compact file trees, symbols, dependencies, search hits, and exact source slices.
 
