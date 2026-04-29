@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Codex SuperSpec.png" alt="codedb" width="400" />
+</p>
+
 # SuperSpec for Codex
 
 **Stop burning context. Start running Codex like a startup operating layer.**
