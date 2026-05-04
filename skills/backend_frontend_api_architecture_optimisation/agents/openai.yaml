@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "BE-FE API Architecture Optimisation"
+  short_description: "Diagnose API bottlenecks shaping frontend speed"
+  default_prompt: "Use $frontend_backend_api_optimisation to review the API path behind this slow frontend flow and recommend the smallest safe optimisation."
+
+policy:
+  allow_implicit_invocation: true

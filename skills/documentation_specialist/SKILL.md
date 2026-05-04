@@ -24,7 +24,7 @@ Own:
 
 Do not own by default:
 - sprint task logs; use `Task Track n Log`
-- repo structure summaries; use `code-index-n-search` or `AST Summary Builder`
+- repo structure summaries; use `Codebase Index N Search` or `AST Summary Builder`
 - detailed backend or frontend architecture docs; use the relevant architecture skill
 - general markdown cleanup that does not preserve durable memory
 
