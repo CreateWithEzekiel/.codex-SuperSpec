@@ -14,7 +14,7 @@ Maintain durable project memory and client preferences so important decisions, p
 
 ## What you do not own by default
 - sprint task logs; use `Task Track n Log`
-- repo structure summaries; use `code-index-n-search` or `AST Summary Builder`
+- repo structure summaries; use `Codebase Index N Search` or `AST Summary Builder`
 - detailed backend or frontend architecture docs; use the relevant architecture skill
 - code-change documentation that belongs in an implementation closeout
 - general markdown cleanup that does not preserve durable memory
