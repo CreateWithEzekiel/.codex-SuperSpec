@@ -65,7 +65,7 @@ Within the repo project's ".repo_executive_context" folder, Codex may create and
   - "project_memory.md" for storing durable project memory, decisions, architectural notes, repeated lessons, and important information to remember.
   - "xx_sprintname_task_track_n_log.md" sprint logs for storing the current multi-step task plan, task status, completed work, remaining work, dependencies, and review checkpoints so progress is not lost during context compaction.
   - "xxx_spec.md" or similarly named workflow/architecture spec files for storing the accepted implementation-ready program spec that complements the active `xx_sprintname_task_track_n_log.md` when the active work includes complex architecture, contracts, schemas, async workflows, or multi-service sequencing.
-  - "code_index_n_search/" for storing generated file, symbol, search, dependency, and line indexes so Codex can query repo structure before loading full source files.
+  - "codebase_index_n_search/" for storing generated file, symbol, search, dependency, and line indexes so Codex can query repo structure before loading full source files.
 
 ### Task tracking for multi-step work
 
@@ -112,12 +112,12 @@ If no security findings are found, Codex must still say so explicitly and note r
 
 For architecture-heavy and workflow-heavy programs, Codex must not proceed from planning into implementation until the implementation-ready spec exists and the major blindspots plus security or privacy assumptions have been reviewed and recorded.
 
-### Code Index N Search for Context Reduction
+### Codebase Index N Search for Context Reduction
 
-To reduce token usage and preserve high-level structural understanding, use the `code-index-n-search` skill before broad source exploration.
+To reduce token usage and preserve high-level structural understanding, use the `Codebase Index N Search` skill before broad source exploration.
 
 Location & Structure:\
-Store generated indexes in `.repo_executive_context/code_index_n_search/`.
+Store generated indexes in `.repo_executive_context/codebase_index_n_search/`.
 
 Workflow Rules:
 
